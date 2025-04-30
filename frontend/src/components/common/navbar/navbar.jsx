@@ -76,10 +76,10 @@ const Navbar = ({ isLoggedIn, userRole, userData }) => {
                         </Link>
                       </li>
                       <li className="item">
-                        <Link to="System Logs">
-                          <i className="fa-solid fa-file-medical"></i>
-                          <span className="item-text">System Logs</span>
-                          <span className="item-tooltip">System Logs</span>
+                        <Link to="records">
+                          <i className="fa-solid fa-user-doctor"></i>
+                          <span className="item-text">Records</span>
+                          <span className="item-tooltip">Records</span>
                         </Link>
                       </li>
                     </>
