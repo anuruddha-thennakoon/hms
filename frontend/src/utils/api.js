@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const API_BASE_URL = "http://localhost:4000/api/v1";
-const API_BASE_URL = "hms-production-b807.up.railway.app/api/v1";
+const API_BASE_URL = "https://hms-production-b807.up.railway.app/api/v1";
 
 const handleApiError = (error) => {
   const status = error.response?.status;
